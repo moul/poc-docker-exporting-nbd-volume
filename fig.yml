@@ -3,7 +3,8 @@ client:
 
 data:
   build: data
-  volumes: /
+  volumes: /data
+  command: true
 
 server:
   build: server

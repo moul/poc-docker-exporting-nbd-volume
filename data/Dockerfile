@@ -1,2 +1,3 @@
-FROM scratch
-ADD hello.txt /
+FROM busybox
+ADD hello.txt /data/
+VOLUME /data/
