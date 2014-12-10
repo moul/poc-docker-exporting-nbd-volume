@@ -1,0 +1,11 @@
+client:
+  build: client
+
+data:
+  build: data
+  volumes: /
+
+server:
+  build: server
+  # volumes_from: here we need to hack
+  #   see: http://stackoverflow.com/questions/23137544/how-to-map-volume-paths-using-dockers-volumes-from
